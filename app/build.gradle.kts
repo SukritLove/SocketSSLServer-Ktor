@@ -73,7 +73,9 @@ dependencies {
     implementation("io.ktor:ktor-network:3.0.0-beta-1")
     implementation("io.ktor:ktor-network-tls:3.0.0-beta-1")
     implementation("io.ktor:ktor-network-tls-certificates:3.0.0-beta-1")
+
     implementation("io.ktor:ktor-client-core:3.0.0-beta-1")
     implementation("io.ktor:ktor-client-cio:3.0.0-beta-1")
+
 
 }
