@@ -70,14 +70,14 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
 
-    implementation("io.ktor:ktor-network:3.0.0-beta-1")
-    implementation("io.ktor:ktor-network-tls:3.0.0-beta-1")
-    implementation("io.ktor:ktor-network-tls-certificates:3.0.0-beta-1")
+    implementation("io.ktor:ktor-network:2.3.7")
+    implementation("io.ktor:ktor-network-tls:2.3.7")
+    implementation("io.ktor:ktor-network-tls-certificates:2.3.7")
 
-    implementation("io.ktor:ktor-server-core:3.0.0-beta-1")
+    implementation("io.ktor:ktor-server-core:2.3.7")
 
-    implementation("io.ktor:ktor-client-core:3.0.0-beta-1")
-    implementation("io.ktor:ktor-client-cio:3.0.0-beta-1")
+    implementation("io.ktor:ktor-client-core:2.3.7")
+    implementation("io.ktor:ktor-client-cio:2.3.7")
 
 
 }
