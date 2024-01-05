@@ -21,7 +21,7 @@ suspend fun startServer(ipAddress: String) {
 
         while (true) {
             val socket = serverSocket.accept()
-            println("Status:: Accepted $socket")
+            println("Status:: Accepted ${socket.remoteAddress}")
 
             val receiveChannel = socket.openReadChannel()
             val sendChannel = socket.openWriteChannel(autoFlush = true)
